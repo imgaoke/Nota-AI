@@ -1,0 +1,133 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "pTYYu3oMhOHlLWSWHbiwUrsbD0bVQviP",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "queueNumber"
+		}, {
+			"name": "value",
+			"value": "Debug(transporterID)"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 168,
+			"width": 293
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "farckID"
+	}, {
+		"command": "Variable",
+		"name": "lane"
+	}, {
+		"command": "Variable",
+		"name": "metalID"
+	} ],
+	"outputs": [],
+	"properties": {
+		"7ysy8HQ8P79QDpR717DxhTFHqEBFuYfd": {
+			"height": 112,
+			"title": "nota_keg_treestands.swampdota_farckreclaim",
+			"width": 357,
+			"x": 555,
+			"y": 268
+		},
+		"dallC3idYtjjDw6J2lxJgzDSiBwe9oIF": {
+			"height": 92,
+			"title": "nota_keg_treestands.swampdota_farckfollowPath",
+			"width": 376,
+			"x": 658,
+			"y": 130
+		},
+		"h8tsZ4Kt5mqaBkvcfMBVB4zOWcye4bOc": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 354,
+			"y": 39
+		},
+		"neneMnWoc4P1cItg2BJTskqe9SpyyPWO": {
+			"height": 94,
+			"title": "store",
+			"width": 496,
+			"x": 617,
+			"y": -17
+		},
+		"pTYYu3oMhOHlLWSWHbiwUrsbD0bVQviP": {
+			"height": 94,
+			"title": "store",
+			"width": 220,
+			"x": 1037,
+			"y": 120
+		}
+	},
+	"roles": [ {
+		"categories": [ "Common.transports" ],
+		"name": "Role 0"
+	}, {
+		"categories": [],
+		"name": "Role 2"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "neneMnWoc4P1cItg2BJTskqe9SpyyPWO",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "one"
+			}, {
+				"name": "value",
+				"value": "swampdota_onePathGenerationForMetal(farckID, lane, metalID)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "dallC3idYtjjDw6J2lxJgzDSiBwe9oIF",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "farckID",
+				"value": "farckID"
+			}, {
+				"name": "onePath",
+				"value": "one"
+			}, {
+				"name": "scriptName",
+				"value": "nota_keg_treestands.swampdota_farckfollowPath"
+			} ],
+			"scriptName": "nota_keg_treestands.swampdota_farckfollowPath"
+		}, {
+			"children": [],
+			"id": "7ysy8HQ8P79QDpR717DxhTFHqEBFuYfd",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "farckID",
+				"value": "farckID"
+			}, {
+				"name": "metalID",
+				"value": "metalID"
+			}, {
+				"name": "radius",
+				"value": "2000"
+			}, {
+				"name": "scriptName",
+				"value": "nota_keg_treestands.swampdota_farckreclaim"
+			} ],
+			"scriptName": "nota_keg_treestands.swampdota_farckreclaim"
+		} ],
+		"id": "h8tsZ4Kt5mqaBkvcfMBVB4zOWcye4bOc",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"lLAKvEUmKvACn28dDFtD1EPpUrFkCF4G": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 226,
+			"y": -7
+		},
+		"n1U3GNtBqQXaBhY399D5ztyMYt2CUXDV": {
+			"height": 94,
+			"title": "store",
+			"width": 269,
+			"x": 476,
+			"y": -112
+		},
+		"vvIJvIXDV2ts9X3lKcODUZlhuoXq3YDo": {
+			"height": 92,
+			"title": "store",
+			"width": 333,
+			"x": 488,
+			"y": 50
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "n1U3GNtBqQXaBhY399D5ztyMYt2CUXDV",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "x"
+			}, {
+				"name": "value",
+				"value": "Spring.GetUnitDefID(units[1])"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "vvIJvIXDV2ts9X3lKcODUZlhuoXq3YDo",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "y"
+			}, {
+				"name": "value",
+				"value": "UnitDefs[x].name"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		} ],
+		"id": "lLAKvEUmKvACn28dDFtD1EPpUrFkCF4G",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

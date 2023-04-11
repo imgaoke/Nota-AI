@@ -1,0 +1,305 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "wS0bY8bzZJwvSnOMgmS6fsR9CeIxIzr7",
+		"nodeType": "success",
+		"parameters": []
+	}, {
+		"children": [],
+		"id": "s1WNOlfGxsblXXginX4QxPTtrO1D7Y3x",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "x"
+		}, {
+			"name": "value",
+			"value": "core.position()"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	}, {
+		"children": [],
+		"id": "ca2vgRI5bx75KAvgy5qZZ3IkpZJEcUrc",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "queueNumber"
+		}, {
+			"name": "value",
+			"value": "Debug(transporterID)"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	}, {
+		"children": [],
+		"id": "ghZtLwwRylW31IHpmMN46giC0bPqk0Po",
+		"nodeType": "success",
+		"parameters": []
+	}, {
+		"children": [],
+		"id": "374IR5aP8Y4ATWTojfc4UABZ9tnJT3ld",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "wantedheight -- debug"
+		}, {
+			"name": "value",
+			"value": "GetUnitDefField()"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	}, {
+		"children": [ {
+			"children": [],
+			"id": "ydlOMt64dyYwmVYnMizWKsHRoodUUk5s",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "transporterID"
+			}, {
+				"name": "value",
+				"value": "units[1]"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "vXda4PzOCgH9iiAxPa5iVZnFjYdXBYDJ",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "unitToBeRescuedID"
+			}, {
+				"name": "value",
+				"value": "units[1]"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		} ],
+		"id": "OfLtEDowKl0mHGMtq6j26vYRUb2hTeXr",
+		"nodeType": "roleSplit",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 279
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "unitToBeRescuedID"
+	}, {
+		"command": "BETS_UNIT",
+		"name": "transporterID"
+	} ],
+	"outputs": [],
+	"properties": {
+		"374IR5aP8Y4ATWTojfc4UABZ9tnJT3ld": {
+			"height": 94,
+			"title": "store",
+			"width": 460,
+			"x": 568,
+			"y": 33
+		},
+		"D23fPfPnbYQsqMjCGJyOzS6SStLousFu": {
+			"height": 54,
+			"title": "find safe path from atlas to target position",
+			"width": 344,
+			"x": 557,
+			"y": 134
+		},
+		"OfLtEDowKl0mHGMtq6j26vYRUb2hTeXr": {
+			"height": 70,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 657,
+			"y": -146
+		},
+		"ca2vgRI5bx75KAvgy5qZZ3IkpZJEcUrc": {
+			"height": 94,
+			"title": "store",
+			"width": 220,
+			"x": 902,
+			"y": 240
+		},
+		"coLD2gyo5WEbyXnkU8dpX1bCNtzgGYPz": {
+			"height": 94,
+			"title": "store",
+			"width": 198,
+			"x": 522,
+			"y": -237
+		},
+		"e2UyZrFg7ThkYH4i7bw37zTnuZ2xKIkr": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 350,
+			"y": 34
+		},
+		"ghZtLwwRylW31IHpmMN46giC0bPqk0Po": {
+			"height": 54,
+			"title": "unload unit",
+			"width": 279,
+			"x": 560,
+			"y": 650
+		},
+		"huhnOvpgYwJEvUJK8ExrWKRZl0HMU7a7": {
+			"height": 54,
+			"title": "find path home",
+			"width": 279,
+			"x": 563,
+			"y": 453
+		},
+		"kPrKG4zIQI1C3wVyQLQOW941n2hnDxYf": {
+			"height": 54,
+			"title": "move to location using the path",
+			"width": 279,
+			"x": 566,
+			"y": 485
+		},
+		"lkm8aGBYj7nFz1w7CHBrRtPgrZ5Rayc6": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 558,
+			"y": 281
+		},
+		"s1WNOlfGxsblXXginX4QxPTtrO1D7Y3x": {
+			"height": 94,
+			"title": "store",
+			"width": 198,
+			"x": 523,
+			"y": -341
+		},
+		"vXda4PzOCgH9iiAxPa5iVZnFjYdXBYDJ": {
+			"height": 99,
+			"title": "store",
+			"width": 270,
+			"x": 920,
+			"y": -73
+		},
+		"vokAlXBkrQpVy0ntMMnzxQZDcrW7g63r": {
+			"height": 92,
+			"title": "nota_keg_treestands.unloadUnit",
+			"width": 267,
+			"x": 546,
+			"y": 550
+		},
+		"wS0bY8bzZJwvSnOMgmS6fsR9CeIxIzr7": {
+			"height": 54,
+			"title": "move to location using the path",
+			"width": 279,
+			"x": 572,
+			"y": 198
+		},
+		"wpwRpVYwEMKhxrAkMmvSrIlBjlHaSNe1": {
+			"height": 92,
+			"title": "nota_keg_treestands.loadUnit",
+			"width": 292,
+			"x": 897,
+			"y": 348
+		},
+		"ydlOMt64dyYwmVYnMizWKsHRoodUUk5s": {
+			"height": 94,
+			"title": "store",
+			"width": 198,
+			"x": 915,
+			"y": -208
+		}
+	},
+	"roles": [ {
+		"categories": [ "Common.transports" ],
+		"name": "Role 0"
+	}, {
+		"categories": [],
+		"name": "Role 2"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "coLD2gyo5WEbyXnkU8dpX1bCNtzgGYPz",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "missionInfo"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "D23fPfPnbYQsqMjCGJyOzS6SStLousFu",
+			"nodeType": "success",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "wpwRpVYwEMKhxrAkMmvSrIlBjlHaSNe1",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitToRescueID",
+					"value": "unitToBeRescuedID[1]"
+				}, {
+					"name": "unitTransporterID",
+					"value": "transporterID[1]"
+				}, {
+					"name": "scriptName",
+					"value": "nota_keg_treestands.loadUnit"
+				} ],
+				"scriptName": "nota_keg_treestands.loadUnit"
+			} ],
+			"id": "lkm8aGBYj7nFz1w7CHBrRtPgrZ5Rayc6",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "any-success"
+			} ]
+		}, {
+			"children": [],
+			"id": "huhnOvpgYwJEvUJK8ExrWKRZl0HMU7a7",
+			"nodeType": "success",
+			"parameters": []
+		}, {
+			"children": [],
+			"id": "kPrKG4zIQI1C3wVyQLQOW941n2hnDxYf",
+			"nodeType": "success",
+			"parameters": []
+		}, {
+			"children": [],
+			"id": "vokAlXBkrQpVy0ntMMnzxQZDcrW7g63r",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unitTransporterID",
+				"value": "transporterID[1]"
+			}, {
+				"name": "unloadLocation",
+				"value": "missionInfo"
+			}, {
+				"name": "scriptName",
+				"value": "nota_keg_treestands.unloadUnit"
+			} ],
+			"scriptName": "nota_keg_treestands.unloadUnit"
+		} ],
+		"id": "e2UyZrFg7ThkYH4i7bw37zTnuZ2xKIkr",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

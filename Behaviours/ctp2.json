@@ -1,0 +1,479 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "5Mukhpm2qsURF5hfBqQXFjW9CgoCvrgX",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "peewees"
+		}, {
+			"name": "value",
+			"value": "GetPeewees()"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"0SDuds6NlVqICW5YRxVL7oZ72OdgtVqw": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 247,
+			"x": 909,
+			"y": 419
+		},
+		"0oLan1ill25o6C6vebLHeIjjCXbrkMb3": {
+			"height": 151,
+			"title": "reference",
+			"width": 300,
+			"x": 1688,
+			"y": 401
+		},
+		"3W5C7t0Q5fVzyAOS0ettv6920G17ysbR": {
+			"height": 151,
+			"title": "reference",
+			"width": 300,
+			"x": 1697,
+			"y": 582
+		},
+		"3YimPCNIOMS2FwOldOXHvxR0IZPoNW8M": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 150,
+			"x": 489,
+			"y": 657
+		},
+		"49oQw9wkvmskmqUk9M5JlVvpiNswVcth": {
+			"height": 94,
+			"title": "store",
+			"width": 198,
+			"x": 864,
+			"y": -608
+		},
+		"4QBDrfS40XqUKSiT9X2Wr6UYgwPGtsFt": {
+			"height": 151,
+			"title": "reference",
+			"width": 300,
+			"x": 1694,
+			"y": 767
+		},
+		"4QeQhI4VwVJQDorA1zywV0ZxklxG5AYJ": {
+			"height": 92,
+			"title": "store",
+			"width": 131,
+			"x": 1134,
+			"y": -338
+		},
+		"5Mukhpm2qsURF5hfBqQXFjW9CgoCvrgX": {
+			"height": 94,
+			"title": "store",
+			"width": 175,
+			"x": 646,
+			"y": 873
+		},
+		"7gEFGUGPYlvKWK9XADUDPyOg0AFFsUaL": {
+			"height": 94,
+			"title": "store",
+			"width": 318,
+			"x": 799,
+			"y": -525
+		},
+		"F5htD1iMcl8melwVK98ETKeDfgoMQXdF": {
+			"height": 132,
+			"title": "formation.moveCustomGroup",
+			"width": 472,
+			"x": 1079,
+			"y": 252
+		},
+		"NWv2pWBVbJD6cNCJXe5l1niR6mFRgUGD": {
+			"height": 94,
+			"title": "store",
+			"width": 163,
+			"x": 851,
+			"y": -790
+		},
+		"PFHPvnemmD36jeocrst1K9yXj8Q3aRp9": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1239,
+			"y": 428
+		},
+		"QdKqMwfucr6ME1zGc9ffAhkw6OfXSrcJ": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 603,
+			"y": -329
+		},
+		"S4fs1I0aI3oTr6gQWs5p6wOFmBhnav1A": {
+			"height": 54,
+			"title": "nota_common.manualMissionEnd",
+			"width": 296,
+			"x": 519,
+			"y": 565
+		},
+		"Vl9TKvaol8KJJcKqh7FubiYS9qq1QYSn": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 773,
+			"y": 23
+		},
+		"X2L7w1pXMweelR4KrtzCNRY0at3tsfVs": {
+			"height": 92,
+			"title": "store",
+			"width": 131,
+			"x": 862,
+			"y": -697
+		},
+		"ZOGDxPRZriGJ2M5Il5Hnfe5RwWgZQkU3": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 530,
+			"y": 123
+		},
+		"ZcG9Je9lDudj9H8u21xdf9dOS1ddrEmX": {
+			"height": 92,
+			"title": "nota_keg_treestands.loadUnitCTP2",
+			"width": 287,
+			"x": 1099,
+			"y": -68
+		},
+		"bgpUBuPnMxAmgtX9dZA1q8s8X7GuY3gz": {
+			"height": 92,
+			"title": "store",
+			"width": 131,
+			"x": 1131,
+			"y": -442
+		},
+		"eFNLlOevqYl4heSryerCrnDby9piCfwK": {
+			"height": 92,
+			"title": "store",
+			"width": 131,
+			"x": 1129,
+			"y": -239
+		},
+		"kriVDUZN7QxGzmyYgOciCgFrLB0zIybB": {
+			"height": 172,
+			"title": "reference",
+			"width": 402,
+			"x": 1076,
+			"y": 63
+		},
+		"lNwHJqX2L6bk05xqAIQ8Obt2s3qec6EQ": {
+			"height": 70,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 829,
+			"y": -337
+		},
+		"mphTU2xBCrudBmR3Rx7y60Mkox9gfvcS": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 316,
+			"y": -24
+		}
+	},
+	"roles": [ {
+		"categories": [ "nota_keg_treestands.warriors" ],
+		"name": "commander"
+	}, {
+		"categories": [ "nota_keg_treestands.peewee" ],
+		"name": "peewee"
+	}, {
+		"categories": [ "nota_keg_treestands.bear" ],
+		"name": "bear"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "NWv2pWBVbJD6cNCJXe5l1niR6mFRgUGD",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "hills"
+				}, {
+					"name": "value",
+					"value": "HillPosition()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "X2L7w1pXMweelR4KrtzCNRY0at3tsfVs",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "hillsSet"
+				}, {
+					"name": "value",
+					"value": "true"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "49oQw9wkvmskmqUk9M5JlVvpiNswVcth",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "missionInfo"
+				}, {
+					"name": "value",
+					"value": "core.MissionInfo()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "7gEFGUGPYlvKWK9XADUDPyOg0AFFsUaL",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "enemyPosition"
+				}, {
+					"name": "value",
+					"value": "core.MissionInfo().enemyPositions[1]"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "bgpUBuPnMxAmgtX9dZA1q8s8X7GuY3gz",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "warriors"
+					}, {
+						"name": "value",
+						"value": "units"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "4QeQhI4VwVJQDorA1zywV0ZxklxG5AYJ",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "peewees"
+					}, {
+						"name": "value",
+						"value": "units"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "eFNLlOevqYl4heSryerCrnDby9piCfwK",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bear"
+					}, {
+						"name": "value",
+						"value": "units"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "lNwHJqX2L6bk05xqAIQ8Obt2s3qec6EQ",
+				"nodeType": "roleSplit",
+				"parameters": [ {
+					"name": "mode",
+					"value": "all-success"
+				} ]
+			} ],
+			"id": "QdKqMwfucr6ME1zGc9ffAhkw6OfXSrcJ",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "ZcG9Je9lDudj9H8u21xdf9dOS1ddrEmX",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unitsToLoad",
+						"value": "warriors"
+					}, {
+						"name": "unitTransporterID",
+						"value": "bear[1]"
+					}, {
+						"name": "scriptName",
+						"value": "nota_keg_treestands.loadUnitCTP2"
+					} ],
+					"scriptName": "nota_keg_treestands.loadUnitCTP2"
+				}, {
+					"children": [],
+					"id": "kriVDUZN7QxGzmyYgOciCgFrLB0zIybB",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_keg_treestands.hoverCraftMove"
+					} ],
+					"referenceInputs": [ {
+						"name": "customUnits",
+						"value": "{[bear[1]] =  1}"
+					}, {
+						"name": "destination",
+						"value": "{enemyPosition.x, enemyPosition.z}"
+					}, {
+						"name": "hoverCraft",
+						"value": "bear[1]"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "F5htD1iMcl8melwVK98ETKeDfgoMQXdF",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "groupDefintion",
+						"value": "{[warriors[1]] = 1, [warriors[2]] = 2, [warriors[3]] = 3} "
+					}, {
+						"name": "position",
+						"value": "{ x = hills[4][1] , y = 0, z = hills[4][2] }  "
+					}, {
+						"name": "formation",
+						"value": "{[1] = Vec3(0,0,0), [2] = Vec3(10,0,0), [3] = Vec3(20,0,0)}"
+					}, {
+						"name": "fight",
+						"value": "true"
+					}, {
+						"name": "scriptName",
+						"value": "formation.moveCustomGroup"
+					} ],
+					"scriptName": "formation.moveCustomGroup"
+				} ],
+				"id": "Vl9TKvaol8KJJcKqh7FubiYS9qq1QYSn",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "0oLan1ill25o6C6vebLHeIjjCXbrkMb3",
+						"nodeType": "reference",
+						"parameters": [ {
+							"name": "behaviourName",
+							"value": "nota_keg_treestands.peeweeMove"
+						} ],
+						"referenceInputs": [ {
+							"name": "customUnits",
+							"value": "{[peewees[1]] =  1}"
+						}, {
+							"name": "destination",
+							"value": "hills[1]"
+						} ],
+						"referenceOutputs": []
+					}, {
+						"children": [],
+						"id": "3W5C7t0Q5fVzyAOS0ettv6920G17ysbR",
+						"nodeType": "reference",
+						"parameters": [ {
+							"name": "behaviourName",
+							"value": "nota_keg_treestands.peeweeMove"
+						} ],
+						"referenceInputs": [ {
+							"name": "customUnits",
+							"value": "{[peewees[2]] = 1}"
+						}, {
+							"name": "destination",
+							"value": "hills[2]"
+						} ],
+						"referenceOutputs": []
+					}, {
+						"children": [],
+						"id": "4QBDrfS40XqUKSiT9X2Wr6UYgwPGtsFt",
+						"nodeType": "reference",
+						"parameters": [ {
+							"name": "behaviourName",
+							"value": "nota_keg_treestands.peeweeMove"
+						} ],
+						"referenceInputs": [ {
+							"name": "customUnits",
+							"value": "{[peewees[3]] = 1}"
+						}, {
+							"name": "destination",
+							"value": "hills[3]"
+						} ],
+						"referenceOutputs": []
+					} ],
+					"id": "PFHPvnemmD36jeocrst1K9yXj8Q3aRp9",
+					"nodeType": "parallel",
+					"parameters": [ {
+						"name": "mode",
+						"value": "all-success"
+					} ]
+				} ],
+				"id": "0SDuds6NlVqICW5YRxVL7oZ72OdgtVqw",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "hillsSet == true"
+				}, {
+					"name": "repeat",
+					"value": "false"
+				} ]
+			} ],
+			"id": "ZOGDxPRZriGJ2M5Il5Hnfe5RwWgZQkU3",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		}, {
+			"children": [],
+			"id": "S4fs1I0aI3oTr6gQWs5p6wOFmBhnav1A",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "scriptName",
+				"value": "nota_common.manualMissionEnd"
+			} ],
+			"scriptName": "nota_common.manualMissionEnd"
+		}, {
+			"children": [],
+			"id": "3YimPCNIOMS2FwOldOXHvxR0IZPoNW8M",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "condition",
+				"value": "false"
+			}, {
+				"name": "scriptName",
+				"value": "waitUntil"
+			} ],
+			"scriptName": "waitUntil"
+		} ],
+		"id": "mphTU2xBCrudBmR3Rx7y60Mkox9gfvcS",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

@@ -1,0 +1,270 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"1HHwknwSXZwhK3FQJWQAsJlqa1CFAvOY": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 150,
+			"x": 1680,
+			"y": 15
+		},
+		"BDfXEa2Qzi1Mpd35H20bQuFjGw4gOhCx": {
+			"height": 88,
+			"title": "Common.move",
+			"width": 641,
+			"x": 2074,
+			"y": 392
+		},
+		"GUcHFc5dgRmYcji1nB6bdQIq9xS7ETtL": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1524,
+			"y": 325
+		},
+		"LwxeJuM0tI8wtVpoA21kevAzQoLA8ped": {
+			"height": 102,
+			"title": "store",
+			"width": 136,
+			"x": 1695,
+			"y": -112
+		},
+		"PQKzTKHQDuU3ElymsFEOEKIyH031iUsZ": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 537,
+			"x": 2056,
+			"y": 285
+		},
+		"S9mX0ejQeKVnW8walw6ytIVl7ICdLJFF": {
+			"height": 113,
+			"title": "store",
+			"width": 230,
+			"x": 1002,
+			"y": -181
+		},
+		"UCc7v9Gt2WLnywa6H8eT67MkDLKQLYas": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 813,
+			"y": 17
+		},
+		"X9fJ8b2EpwSGzQXSVk7cGq2YhcT6fQn4": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1473,
+			"y": -38
+		},
+		"b4JbCeo6bzmX6RpEzJHekpuiYwaz8cPN": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 425,
+			"x": 994,
+			"y": 62
+		},
+		"e5K13O4IUw3URiQ6N5lNnOGONhBwNetL": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 776,
+			"y": -162
+		},
+		"gsei2hI1DyZ4azLjWEWFktsdmD4nQh8g": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 582,
+			"y": -161
+		},
+		"hrOcH4AbbAtTABLVqDgWOjEQMzn4d7Qg": {
+			"height": 94,
+			"title": "store",
+			"width": 361,
+			"x": 1738,
+			"y": 191
+		},
+		"oDeB0G8Bqz0hDXDIuvLRb6Gg3aARyeF5": {
+			"height": 70,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 1722,
+			"y": 343
+		},
+		"qihgKwoal1Fb3wpuS66WtiB1aGauiNer": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 281,
+			"y": 6
+		},
+		"vkI8Xt3XAEi9D4jYrgEQQJbNFM4gQcAg": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 601,
+			"y": 17
+		}
+	},
+	"roles": [ {
+		"categories": [ "nota_keg_treestands.commander" ],
+		"name": "commander"
+	}, {
+		"categories": [ "nota_keg_treestands.peewee" ],
+		"name": "peewee"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "S9mX0ejQeKVnW8walw6ytIVl7ICdLJFF",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "reset"
+					}, {
+						"name": "value",
+						"value": "math.random(4) == 1"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "e5K13O4IUw3URiQ6N5lNnOGONhBwNetL",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "gsei2hI1DyZ4azLjWEWFktsdmD4nQh8g",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "LwxeJuM0tI8wtVpoA21kevAzQoLA8ped",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "reset"
+							}, {
+								"name": "value",
+								"value": "false"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [],
+							"id": "1HHwknwSXZwhK3FQJWQAsJlqa1CFAvOY",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "condition",
+								"value": "false"
+							}, {
+								"name": "scriptName",
+								"value": "waitUntil"
+							} ],
+							"scriptName": "waitUntil"
+						} ],
+						"id": "X9fJ8b2EpwSGzQXSVk7cGq2YhcT6fQn4",
+						"nodeType": "sequence",
+						"parameters": []
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "hrOcH4AbbAtTABLVqDgWOjEQMzn4d7Qg",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "cp"
+							}, {
+								"name": "value",
+								"value": "nota_keg_treestands.CommanderPosition()"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [ {
+								"children": [],
+								"id": "PQKzTKHQDuU3ElymsFEOEKIyH031iUsZ",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "dist",
+									"value": "{x = 200, z = 200}"
+								}, {
+									"name": "fight",
+									"value": "false"
+								}, {
+									"name": "scriptName",
+									"value": "Common.relativeMove"
+								} ],
+								"scriptName": "Common.relativeMove"
+							}, {
+								"children": [],
+								"id": "BDfXEa2Qzi1Mpd35H20bQuFjGw4gOhCx",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "pos",
+									"value": "{x = 100, z = 100}"
+								}, {
+									"name": "fight",
+									"value": "false"
+								}, {
+									"name": "scriptName",
+									"value": "Common.move"
+								} ],
+								"scriptName": "Common.move"
+							} ],
+							"id": "oDeB0G8Bqz0hDXDIuvLRb6Gg3aARyeF5",
+							"nodeType": "roleSplit",
+							"parameters": [ {
+								"name": "mode",
+								"value": "all-success"
+							} ]
+						} ],
+						"id": "GUcHFc5dgRmYcji1nB6bdQIq9xS7ETtL",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "b4JbCeo6bzmX6RpEzJHekpuiYwaz8cPN",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "reset == true"
+					}, {
+						"name": "repeat",
+						"value": "true"
+					} ]
+				} ],
+				"id": "UCc7v9Gt2WLnywa6H8eT67MkDLKQLYas",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "vkI8Xt3XAEi9D4jYrgEQQJbNFM4gQcAg",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "qihgKwoal1Fb3wpuS66WtiB1aGauiNer",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

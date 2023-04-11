@@ -1,0 +1,108 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "xW9uncpTinZ1L5CyH0mrt7HIPVbTzJvz",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "pos",
+			"value": "{ x = destination[1], z = destination[2] } "
+		}, {
+			"name": "fight",
+			"value": "false"
+		}, {
+			"name": "scriptName",
+			"value": "Common.move"
+		} ],
+		"scriptName": "Common.move"
+	}, {
+		"children": [],
+		"id": "o0Gz9cGK7t5x1FUFmuIPTQXLhloXr3WC",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "testestd"
+		}, {
+			"name": "value",
+			"value": "destination[1]"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 230
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "customUnits"
+	}, {
+		"command": "Variable",
+		"name": "destination"
+	} ],
+	"outputs": [],
+	"properties": {
+		"Oz7aTZFMgLHjtJPmMykvxZM4nccaNrRZ": {
+			"height": 137,
+			"title": "formation.moveCustomGroup",
+			"width": 473,
+			"x": 574,
+			"y": 114
+		},
+		"Xvauet1i7XmkxbTUwIy1JsC666Aywd1m": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 360,
+			"y": 86
+		},
+		"o0Gz9cGK7t5x1FUFmuIPTQXLhloXr3WC": {
+			"height": 92,
+			"title": "store",
+			"width": 169,
+			"x": 665,
+			"y": -47
+		},
+		"xW9uncpTinZ1L5CyH0mrt7HIPVbTzJvz": {
+			"height": 90,
+			"title": "Common.move",
+			"width": 321,
+			"x": 324,
+			"y": -122
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "Oz7aTZFMgLHjtJPmMykvxZM4nccaNrRZ",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "groupDefintion",
+				"value": "customUnits"
+			}, {
+				"name": "position",
+				"value": "{ x = destination[1] , y = 0, z = destination[2] }  "
+			}, {
+				"name": "formation",
+				"value": "{[1] = Vec3(0,0,0)}"
+			}, {
+				"name": "fight",
+				"value": "false"
+			}, {
+				"name": "scriptName",
+				"value": "formation.moveCustomGroup"
+			} ],
+			"scriptName": "formation.moveCustomGroup"
+		} ],
+		"id": "Xvauet1i7XmkxbTUwIy1JsC666Aywd1m",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

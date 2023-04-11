@@ -1,0 +1,62 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "0hD7ualABJ3T18pIL2txiljcqRkxQo2O",
+		"nodeType": "success",
+		"parameters": []
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 279
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "unitToBeRescuedID"
+	}, {
+		"command": "BETS_UNIT",
+		"name": "transporterID"
+	} ],
+	"outputs": [],
+	"properties": {
+		"0hD7ualABJ3T18pIL2txiljcqRkxQo2O": {
+			"height": 54,
+			"title": "unload unit",
+			"width": 279,
+			"x": 560,
+			"y": 650
+		},
+		"fPtLzzsgyEBcN41vlAfEUcnAFUtnUI6Y": {
+			"height": 151,
+			"title": "reference",
+			"width": 341,
+			"x": 386,
+			"y": -16
+		}
+	},
+	"roles": [ {
+		"categories": [ "Common.transports" ],
+		"name": "Role 0"
+	}, {
+		"categories": [],
+		"name": "Role 2"
+	} ],
+	"root": {
+		"children": [],
+		"id": "fPtLzzsgyEBcN41vlAfEUcnAFUtnUI6Y",
+		"nodeType": "reference",
+		"parameters": [ {
+			"name": "behaviourName",
+			"value": "nota_keg_treestands.ttdr-singleSaveTask"
+		} ],
+		"referenceInputs": [ {
+			"name": "unitToBeRescuedID",
+			"value": "unitToBeRescuedID[1]"
+		}, {
+			"name": "transporterID",
+			"value": "transporterID[1]"
+		} ],
+		"referenceOutputs": []
+	}
+}

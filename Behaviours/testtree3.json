@@ -1,0 +1,71 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "bzQfVVglbYyTxlOPNjPGzW88erwYzmic",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "x"
+		}, {
+			"name": "value",
+			"value": "swampdota_ifBuyFarckInOneLaneCopy_forTesting()"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"EeGs7reTxiPxI08KbOu1pXUC7aHqN2HJ": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 259,
+			"y": -10
+		},
+		"bzQfVVglbYyTxlOPNjPGzW88erwYzmic": {
+			"height": 94,
+			"title": "store",
+			"width": 418,
+			"x": 862,
+			"y": -118
+		},
+		"xa8Txvpfz0kCZABW3RVWOl7AsIU5TcjC": {
+			"height": 72,
+			"title": "nota_keg_treestands.swampdota_test",
+			"width": 303,
+			"x": 430,
+			"y": -18
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "xa8Txvpfz0kCZABW3RVWOl7AsIU5TcjC",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unitName",
+				"value": "\"dummy\""
+			}, {
+				"name": "scriptName",
+				"value": "nota_keg_treestands.swampdota_test"
+			} ],
+			"scriptName": "nota_keg_treestands.swampdota_test"
+		} ],
+		"id": "EeGs7reTxiPxI08KbOu1pXUC7aHqN2HJ",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
